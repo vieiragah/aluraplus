@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-de-fundo: #00030C;
+    --cor-botao: #167BF7;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: 'Inter', sans-serif;
+}
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.botao-azul {
+    background-color: var(--cor-botao);
+    color: var(--cor-principal);
+    padding: 1em;
+    border-radius: 5px;
+    display: block;
+    margin: 1em;
+}
+.botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--cor-principal);    
+}
+.primeiro-titulo {
+    font-weight: 700;
+    font-size: 28px;
+}
+.container-aviso {
+    font-size: 12px;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+.imagem-combo {
+    margin: 1em 0 2em 0;
+}
+.container-caixa {
+    margin: 0 6em;
+}
+.img-notebook, .imagens{
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 9em;
+}
+.segundo-titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.3em;
+}
+.segundo-paragrafo {
+    color: var(--cor-secundaria);
+}
+.paragrafo-dois {
+    padding: 1em;
+}
+.botaozinho {
+    display: inline-block;
+}
+.titulo-dispositivos {
+    font-weight: 700;
+    font-size: 48px;
+}
+.dispositivos {
+    text-align: center;
+}
+.lista-dispositivos {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.footer-logo {
+    display: block;
+    margin: auto;
+}
+.footer-lista {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3em 0;
+}
+a {
+    color: var(--cor-principal);
+}
+.footer-txt1, .footer-txt2 {
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+.footer-txt1 {
+    margin-bottom: 1.5em;
+}
+.footer-txt2 {
+    margin: 0 6em 6em 6em;
+
+}
